@@ -49,8 +49,8 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="container-site grid grid-cols-12 gap-10 py-16 sm:py-24">
-        <div className="col-span-12 space-y-10 lg:col-span-5">
+      <section className="container-site grid grid-cols-1 gap-10 py-16 sm:py-24 lg:grid-cols-12">
+        <div className="min-w-0 space-y-10 lg:col-span-5">
           <div>
             <p className="eyebrow-bronze">Direct line</p>
             <h2 className="mt-3 font-serif text-3xl sm:text-4xl">
@@ -160,7 +160,7 @@ export default function ContactPage() {
           </div>
         </div>
 
-        <div className="col-span-12 lg:col-span-7">
+        <div className="min-w-0 lg:col-span-7">
           {sent ? (
             <div className="rounded-[24px] border border-[#B58E24]/25 bg-[#F2EFE9] p-8 md:p-12">
               <p className="eyebrow-bronze">Email ready</p>

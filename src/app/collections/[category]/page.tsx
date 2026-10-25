@@ -70,8 +70,8 @@ export default async function CategoryPage({ params, searchParams }: PageProps) 
   return (
     <div className="bg-[#FAF8F5] text-[#111111]">
       <section className="bg-[#0A0A0A] pb-16 pt-36 text-[#FAF8F5]">
-        <div className="container-site grid grid-cols-12 gap-10">
-          <div className="col-span-12 lg:col-span-5">
+        <div className="container-site grid grid-cols-1 gap-10 lg:grid-cols-12">
+          <div className="min-w-0 lg:col-span-5">
             <p className="eyebrow-gold">{department.group}</p>
             <h1 className="mt-4 font-serif text-5xl font-light leading-[1.05] tracking-[-0.02em] sm:text-6xl">
               {department.title}
@@ -87,7 +87,7 @@ export default async function CategoryPage({ params, searchParams }: PageProps) 
               </p>
             )}
           </div>
-          <div className="col-span-12 lg:col-span-7">
+          <div className="min-w-0 lg:col-span-7">
             <LuxuryProductImage
               src={heroImage}
               alt={department.title}

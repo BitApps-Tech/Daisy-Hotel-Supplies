@@ -72,14 +72,14 @@ export function Navbar({ columns }: { columns: MegaColumn[] }) {
           <div
             className={`mx-auto w-full transition-[padding] duration-500 ease-luxury ${contentPadClass}`}
           >
-            <nav className="flex items-center justify-between py-3.5">
+            <nav className="flex min-w-0 items-center justify-between gap-3 py-3.5">
               <DaisyLogo
                 className="shrink-0"
                 markClassName="h-11 w-auto md:h-12"
                 onClick={() => setMenuOpen(false)}
               />
 
-              <div className="flex items-center gap-4 md:gap-7">
+              <div className="flex min-w-0 shrink items-center gap-3 sm:gap-4 md:gap-7">
                 <button
                   type="button"
                   onClick={() => {
@@ -129,9 +129,10 @@ export function Navbar({ columns }: { columns: MegaColumn[] }) {
                 <button
                   type="button"
                   onClick={openQuote}
-                  className="font-sans text-xs font-semibold uppercase tracking-[0.18em] text-[#FAF8F5] transition-colors duration-300 hover:text-[#D4AF37]"
+                  className="truncate font-sans text-xs font-semibold uppercase tracking-[0.18em] text-[#FAF8F5] transition-colors duration-300 hover:text-[#D4AF37]"
                 >
-                  Quote Bag ({itemCount})
+                  <span className="sm:hidden">Bag ({itemCount})</span>
+                  <span className="hidden sm:inline">Quote Bag ({itemCount})</span>
                 </button>
                 <button
                   type="button"

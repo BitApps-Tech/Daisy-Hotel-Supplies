@@ -23,8 +23,8 @@ export function SuiteHotspots({ hotspots }: { hotspots: HotspotProduct[] }) {
   if (!current) return null;
 
   return (
-    <div className="grid grid-cols-12 gap-8 lg:gap-12">
-      <div className="relative col-span-12 overflow-hidden rounded-[24px] lg:col-span-7">
+    <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-12">
+      <div className="relative min-w-0 overflow-hidden rounded-[24px] lg:col-span-7">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/daisy/comforter/01.webp"
@@ -49,7 +49,7 @@ export function SuiteHotspots({ hotspots }: { hotspots: HotspotProduct[] }) {
         ))}
       </div>
 
-      <div className="col-span-12 flex flex-col justify-center lg:col-span-5 lg:sticky lg:top-32 lg:h-fit">
+      <div className="flex min-w-0 flex-col justify-center lg:col-span-5 lg:sticky lg:top-32 lg:h-fit">
         <p className="eyebrow-gold">Inside the Five-Star Suite</p>
         <h2 className="mt-4 font-serif text-4xl sm:text-5xl lg:text-6xl font-normal leading-[1.08] tracking-[-0.015em] text-[#FAF8F5]">
           Every surface is specified

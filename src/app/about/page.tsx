@@ -24,14 +24,14 @@ export default function AboutPage() {
       </section>
 
       <section className="border-y border-[#D4AF37]/20 bg-[#121212] py-16 sm:py-28">
-        <div className="container-site grid grid-cols-12 gap-10">
-          <div className="col-span-12 lg:col-span-5">
+        <div className="container-site grid grid-cols-1 gap-10 lg:grid-cols-12">
+          <div className="min-w-0 lg:col-span-5">
             <p className="eyebrow-gold">How hotels procure</p>
             <h2 className="mt-4 font-serif text-4xl sm:text-5xl leading-[1.08]">
               From property standard to staged delivery
             </h2>
           </div>
-          <div className="col-span-12 space-y-8 lg:col-span-6 lg:col-start-7">
+          <div className="min-w-0 space-y-8 lg:col-span-6 lg:col-start-7">
             {[
               {
                 step: "01",

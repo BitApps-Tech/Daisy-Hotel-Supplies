@@ -66,11 +66,11 @@ export default async function ProductPage({ params }: PageProps) {
           <span className="text-zinc-800">{product.title}</span>
         </nav>
 
-        <div className="grid grid-cols-12 gap-10 lg:gap-14">
-          <div className="col-span-12 lg:col-span-6">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-14">
+          <div className="min-w-0 lg:col-span-6">
             <ProductGallery product={product} />
           </div>
-          <div className="col-span-12 lg:col-span-6 lg:sticky lg:top-32 lg:h-fit">
+          <div className="min-w-0 lg:col-span-6 lg:sticky lg:top-32 lg:h-fit">
             <p className="eyebrow-bronze">
               {product.subcategorySlug.replace(/-/g, " ")}
             </p>
