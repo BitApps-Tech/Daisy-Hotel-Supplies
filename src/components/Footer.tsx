@@ -113,8 +113,21 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <div className="container-site border-t border-white/10 py-6 text-[11px] uppercase tracking-[0.18em] text-zinc-500">
-        © {new Date().getFullYear()} Daisy Hotel Supplies · {contact.city}
+      <div className="container-site flex flex-col gap-3 border-t border-white/10 py-6 text-[11px] uppercase tracking-[0.18em] text-zinc-500 sm:flex-row sm:items-center sm:justify-between">
+        <p>
+          © {new Date().getFullYear()} Daisy Hotel Supplies · {contact.city}
+        </p>
+        <p>
+          Designed & developed by{" "}
+          <a
+            href="https://bitappstech.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="text-[#D4AF37] transition-colors duration-300 hover:text-[#E6C786]"
+          >
+            BitApps Tech
+          </a>
+        </p>
       </div>
     </footer>
   );

@@ -57,7 +57,7 @@ export function Hero() {
             className="font-serif text-5xl font-light leading-[1.02] tracking-[-0.02em] text-[#FAF8F5] sm:text-7xl lg:text-[5.5rem]"
           >
             The Architecture of{" "}
-            <em className="italic text-[#E6C786]">Five-Star</em> Comfort
+            <em className="italic text-[#D19618]">Five-Star</em> Comfort
           </motion.h1>
           <motion.p
             variants={fadeUp}
