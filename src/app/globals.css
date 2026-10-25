@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --obsidian: #0a0a0a;
+  --charcoal: #121212;
+  --alabaster: #faf8f5;
+  --cashmere: #f2efe9;
+  --champagne: #d4af37;
+  --bronze: #b58e24;
+  --ease-luxury: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--obsidian);
+  color: var(--alabaster);
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html.daisy-loading,
+html.daisy-loading body {
+  overflow: hidden;
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.35);
+  color: #faf8f5;
+}
+
+@layer utilities {
+  .satin-gold {
+    background-image: linear-gradient(to right, #c5a059, #e6c786, #b38b3f);
+  }
+
+  .container-site {
+    @apply mx-auto max-w-site px-6 sm:px-10 lg:px-16;
+  }
+
+  .eyebrow-gold {
+    @apply font-sans text-[11px] font-semibold uppercase tracking-[0.25em] text-champagne;
+  }
+
+  .eyebrow-bronze {
+    @apply font-sans text-[11px] font-semibold uppercase tracking-[0.25em] text-bronze;
+  }
+}

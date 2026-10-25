@@ -1,0 +1,227 @@
+{
+  "collections": [
+    {
+      "id": "duvet-covers",
+      "label": "Duvet covers",
+      "times": [
+        "11.51.31",
+        "11.51.32"
+      ],
+      "subcategorySlug": "duvet-covers",
+      "departmentSlug": "bed-and-bath-linen",
+      "images": [
+        "/images/daisy/duvet-covers/01.webp",
+        "/images/daisy/duvet-covers/02.webp",
+        "/images/daisy/duvet-covers/03.webp",
+        "/images/daisy/duvet-covers/04.webp",
+        "/images/daisy/duvet-covers/05.webp",
+        "/images/daisy/duvet-covers/06.webp"
+      ]
+    },
+    {
+      "id": "kids-comforter",
+      "label": "Kids comforter",
+      "times": [
+        "11.52.12"
+      ],
+      "subcategorySlug": "baby-bed-linen",
+      "departmentSlug": "bed-and-bath-linen",
+      "images": [
+        "/images/daisy/kids-comforter/01.webp",
+        "/images/daisy/kids-comforter/02.webp",
+        "/images/daisy/kids-comforter/03.webp",
+        "/images/daisy/kids-comforter/04.webp",
+        "/images/daisy/kids-comforter/05.webp",
+        "/images/daisy/kids-comforter/06.webp",
+        "/images/daisy/kids-comforter/07.webp"
+      ]
+    },
+    {
+      "id": "comforter",
+      "label": "Comforter",
+      "times": [
+        "11.54.49",
+        "11.54.50"
+      ],
+      "subcategorySlug": "duvets",
+      "departmentSlug": "bed-and-bath-linen",
+      "images": [
+        "/images/daisy/comforter/01.webp",
+        "/images/daisy/comforter/02.webp",
+        "/images/daisy/comforter/03.webp",
+        "/images/daisy/comforter/04.webp",
+        "/images/daisy/comforter/05.webp",
+        "/images/daisy/comforter/06.webp",
+        "/images/daisy/comforter/07.webp",
+        "/images/daisy/comforter/08.webp",
+        "/images/daisy/comforter/09.webp",
+        "/images/daisy/comforter/10.webp",
+        "/images/daisy/comforter/11.webp"
+      ]
+    },
+    {
+      "id": "towels",
+      "label": "Towels",
+      "times": [
+        "11.55.34",
+        "11.55.59"
+      ],
+      "subcategorySlug": "bath-towels",
+      "departmentSlug": "bed-and-bath-linen",
+      "images": [
+        "/images/daisy/towels/01.webp",
+        "/images/daisy/towels/02.webp",
+        "/images/daisy/towels/03.webp",
+        "/images/daisy/towels/04.webp",
+        "/images/daisy/towels/05.webp"
+      ]
+    },
+    {
+      "id": "bathrobes",
+      "label": "Bathrobe for hotels",
+      "times": [
+        "12.05.57"
+      ],
+      "subcategorySlug": "bathrobes",
+      "departmentSlug": "bed-and-bath-linen",
+      "images": [
+        "/images/daisy/bathrobes/01.webp",
+        "/images/daisy/bathrobes/02.webp"
+      ]
+    },
+    {
+      "id": "towel",
+      "label": "Towel",
+      "times": [
+        "12.14.52",
+        "12.15.46"
+      ],
+      "subcategorySlug": "bath-towels",
+      "departmentSlug": "bed-and-bath-linen",
+      "images": [
+        "/images/daisy/towel/01.webp",
+        "/images/daisy/towel/02.webp"
+      ]
+    },
+    {
+      "id": "comforter-7pcs",
+      "label": "Comforter 7pcs",
+      "times": [
+        "12.20.09",
+        "12.20.54"
+      ],
+      "subcategorySlug": "duvets",
+      "departmentSlug": "bed-and-bath-linen",
+      "images": [
+        "/images/daisy/comforter-7pcs/01.webp",
+        "/images/daisy/comforter-7pcs/02.webp",
+        "/images/daisy/comforter-7pcs/03.webp",
+        "/images/daisy/comforter-7pcs/04.webp",
+        "/images/daisy/comforter-7pcs/05.webp",
+        "/images/daisy/comforter-7pcs/06.webp",
+        "/images/daisy/comforter-7pcs/07.webp",
+        "/images/daisy/comforter-7pcs/08.webp",
+        "/images/daisy/comforter-7pcs/09.webp",
+        "/images/daisy/comforter-7pcs/10.webp",
+        "/images/daisy/comforter-7pcs/11.webp"
+      ]
+    },
+    {
+      "id": "blankets",
+      "label": "Blankets",
+      "times": [
+        "12.22.40",
+        "12.22.41"
+      ],
+      "subcategorySlug": "blankets",
+      "departmentSlug": "bed-and-bath-linen",
+      "images": [
+        "/images/daisy/blankets/01.webp",
+        "/images/daisy/blankets/02.webp",
+        "/images/daisy/blankets/03.webp",
+        "/images/daisy/blankets/04.webp",
+        "/images/daisy/blankets/05.webp",
+        "/images/daisy/blankets/06.webp",
+        "/images/daisy/blankets/07.webp",
+        "/images/daisy/blankets/08.webp",
+        "/images/daisy/blankets/09.webp",
+        "/images/daisy/blankets/10.webp",
+        "/images/daisy/blankets/11.webp",
+        "/images/daisy/blankets/12.webp",
+        "/images/daisy/blankets/13.webp",
+        "/images/daisy/blankets/14.webp",
+        "/images/daisy/blankets/15.webp",
+        "/images/daisy/blankets/16.webp",
+        "/images/daisy/blankets/17.webp",
+        "/images/daisy/blankets/18.webp"
+      ]
+    },
+    {
+      "id": "throw-blanket",
+      "label": "Throw blanket",
+      "times": [
+        "12.24.03"
+      ],
+      "subcategorySlug": "blankets",
+      "departmentSlug": "bed-and-bath-linen",
+      "images": [
+        "/images/daisy/throw-blanket/01.webp",
+        "/images/daisy/throw-blanket/02.webp",
+        "/images/daisy/throw-blanket/03.webp",
+        "/images/daisy/throw-blanket/04.webp",
+        "/images/daisy/throw-blanket/05.webp"
+      ]
+    },
+    {
+      "id": "bedsheets",
+      "label": "Bedsheets",
+      "times": [
+        "12.25.00"
+      ],
+      "subcategorySlug": "bedsheets",
+      "departmentSlug": "bed-and-bath-linen",
+      "images": [
+        "/images/daisy/bedsheets/01.webp",
+        "/images/daisy/bedsheets/02.webp",
+        "/images/daisy/bedsheets/03.webp",
+        "/images/daisy/bedsheets/04.webp",
+        "/images/daisy/bedsheets/05.webp",
+        "/images/daisy/bedsheets/06.webp",
+        "/images/daisy/bedsheets/07.webp",
+        "/images/daisy/bedsheets/08.webp",
+        "/images/daisy/bedsheets/09.webp",
+        "/images/daisy/bedsheets/10.webp",
+        "/images/daisy/bedsheets/11.webp",
+        "/images/daisy/bedsheets/12.webp",
+        "/images/daisy/bedsheets/13.webp"
+      ]
+    },
+    {
+      "id": "pillows",
+      "label": "Pillows",
+      "times": [
+        "12.27.27",
+        "12.27.28",
+        "12.27.29"
+      ],
+      "subcategorySlug": "pillows-pillow-covers",
+      "departmentSlug": "bed-and-bath-linen",
+      "images": [
+        "/images/daisy/pillows/01.webp",
+        "/images/daisy/pillows/02.webp",
+        "/images/daisy/pillows/03.webp",
+        "/images/daisy/pillows/04.webp",
+        "/images/daisy/pillows/05.webp",
+        "/images/daisy/pillows/06.webp",
+        "/images/daisy/pillows/07.webp",
+        "/images/daisy/pillows/08.webp",
+        "/images/daisy/pillows/09.webp",
+        "/images/daisy/pillows/10.webp",
+        "/images/daisy/pillows/11.webp",
+        "/images/daisy/pillows/12.webp",
+        "/images/daisy/pillows/13.webp",
+        "/images/daisy/pillows/14.webp"
+      ]
+    }
+  ]
+}
